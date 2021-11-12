@@ -189,23 +189,13 @@ p {
 }
 
 
-/* contact_container */
-
-.contact_sub_title {
-    margin-top: 15px;
-}
-.contact_info {
-    color: rgb(130, 196, 250);
-}
 /* project container */
 
 .project_content {
     display: flex;
     padding: 10px 0 5px 0;
-}
-
-.project_text {
-    margin-left: 15px;
+    flex-direction: column;
+    justify-content: start;
 }
 
 .project_name,
@@ -214,6 +204,14 @@ a {
     text-decoration: none;
 }
 
+.project_info_block {
+    display: flex;
+    flex-direction: column;
+}
+.project_info {
+    font-size: 18px;
+    font-weight: 500;
+}
 /* education container */
 
 .education_block {
